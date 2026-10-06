@@ -142,6 +142,7 @@ public class RecruitmentPage {
 	 public void selectJobTitle(String value) {
 		  selectDropdownValue(JOB_TITLE, Constatnts.JobTitle);
 	    }
+	 
 	 public void selectVacancy(String value) {
 		 selectDropdownValue(VACANCY, value);
 	 }

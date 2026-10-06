@@ -5,6 +5,7 @@ package com.CEO.stepdefinition;
 
 import java.time.Duration;
 
+import com.CEO.constatnt.Constatnts;
 import com.CEO.pages_objects.LeaveListPages;
 import com.CEO.webdriver_manager.DriverManager;
 
@@ -30,14 +31,14 @@ public void choose_the_from_dateand_to_date() {
    
 }
 
-@Given("choose the Leave with status")
-public void choose_the_leave_with_status() {
-   
+@Given("choose the Leave with status {string}")
+public void choose_the_leave_with_status(String value) {
+   LeaveListPages.getInstance().selectLeaveStatus(Constatnts.LeaveStatus);
 }
 
 @Then("Click the search button")
 public void click_the_search_button() {
-    
+    LeaveListPages.getInstance().clickSearchbtn();
 }
 
 

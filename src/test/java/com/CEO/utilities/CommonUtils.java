@@ -97,6 +97,7 @@ public class CommonUtils {
 		Constatnts.DateTo=properties.getProperty("DateTo");
 		Constatnts.LeaveFromDate=properties.getProperty("LeaveFromDate");
 		Constatnts.LeaveToDate=properties.getProperty("LeaveToDate");
+		Constatnts.LeaveStatus=properties.getProperty("LeaveStatus");
 		/*V-7 driver manager create so we can use without declared browser path
 		 * Constatnts.CHROME_DRIVER_Location=properties.getProperty(
 		 * "CHROME_DRIVER_Location");
