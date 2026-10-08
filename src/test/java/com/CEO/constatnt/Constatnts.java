@@ -39,6 +39,7 @@ public class Constatnts {
 	public static String LeaveToDate;
 	
 	public static String LeaveStatus;
+	public static String LeaveStadtus;
 	
 
 }
