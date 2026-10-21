@@ -20,7 +20,7 @@ import io.cucumber.junit.CucumberOptions;
 		//1.plugin= {"rerun:target/failed_scenario.txt","pretty"}
 		//1.plugin= {"rerun:target/failed_scenario.txt","usage"}
 		
-	//	plugin={"rerun:failed_scenario/failed_scenario.txt"}
+	//	plugin={"rerun:failed_scenario/failed_scenario.txt"}ddd
 		
 		)
 public class TestRunner {
